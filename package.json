@@ -1,0 +1,31 @@
+{
+  "name": "zk-capcha",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "compile-local": "zkgraph compile --local",
+    "setup-local": "zkgraph setup --local",
+    "exec-local": "zkgraph exec --local",
+    "prove-local": "zkgraph prove --local",
+    "upload-local": "zkgraph upload --local",
+    "deploy-local": "zkgraph deploy --local",
+    "compile": "zkgraph compile",
+    "setup": "zkgraph setup",
+    "exec": "zkgraph exec",
+    "prove": "zkgraph prove",
+    "upload": "zkgraph upload",
+    "deploy": "zkgraph deploy",
+    "verify": "zkgraph verify",
+    "publish": "zkgraph publish"
+  },
+  "dependencies": {
+    "@chainsafe/as-sha256": "^0.4.1",
+    "@hyperoracle/zkgraph-lib": "^1.0.0"
+  },
+  "devDependencies": {
+    "@hyperoracle/zkgraph-cli": "1.0.0",
+    "@types/node": "^20.11.7",
+    "assemblyscript": "^0.27.0"
+  }
+}
